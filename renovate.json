@@ -33,6 +33,10 @@
     {
       "groupName": "axe a11y validation libraries",
       "matchSourceUrls": ["https://github.com/dequelabs/axe-core-npm"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": false
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
