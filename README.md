@@ -1,38 +1,10 @@
-# Welcome to Remix!
+# Renovate issue with updating the remix monorepo packages
 
-- [Remix Docs](https://remix.run/docs)
+## Expected behaviour
 
-## Development
+The full set of `@remix-run` packages with source url of <https://github.com/remix-run/remix> should be being updated together.
 
-From your terminal:
+## Actual behaviour
 
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+Only the `@remix-run` packages in the `devDependencies` for the project are being proposed to be updated.
+The production dependencies get left out.
