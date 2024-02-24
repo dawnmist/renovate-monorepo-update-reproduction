@@ -18,15 +18,6 @@
     ":widenPeerDependencies"
   ],
   "baseBranches": ["main"],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ//Wn0Hz9YovApBRvT6CrIKcuQntTf4GdYABwncLLZT/3/Nfcd01ymMBvg+Hp4+4aIDLnK6ys+Z3ajCdYbZKRuUt7L1+u2TCHLndu5RvFuStoQPhM+AR6zskjI293jkf3ZOi+RF0IVE1LdVb1THcu8sl7knD4oTpzTwJxxkKCl0hkycpgga8MmD324K5cg/3zpmTUcymv0QzpkAnZrbRewvK41AGmRpKww0YwKYVfOmfWvvWup4Ht77QN7yKkuEGcEO65+ZhzCuBSllAgcNNFPrk5sErYeCjlZK59A4P5NawlQJXdJn64HrbABPbwQGYLiIglHg6ELJW5l0HZ0uN0WEQ8WCJcCergiicX9PS8RiIeceC6xM9nIds+/2xY/rddmZQqKfplgXQ28grqPueXgHy3zoZGcHMI/CTCTeJJaZe/MWqB0tVztN/Wc3b4QSNexttxH+jwiTy4JWxJ9W37I1I5/7z2FOpFAXgtS0H56n9ZZLEbzaCTEx9zcwDipLSS8LTEJyDKni+rzFvC+0L6EAom+fLQqgSpbRa/TGPm/eTocuXFEAAiicERI8z81tRDgfhYsgGJzhqJDPlKMgWl1gGAUxRErdzHkYnjKWI+A7jAYQ4/9sOa7X9G5n/MC/Y1c8gMnqbINd7uuptMUiTgTc7SIuO2/XAxJmphdhD2cUqPfShQE6Cz0OQFlN5eYN/gyqm5CeO9q/Q3D1wftV372vZsJM5eYzesJBjnA1ZcleUHKp4xp4PUEUsoik0teHn+MD9cO1mK5nsuD83XoygQpH8VXK1N+1RUPIZfQJNWJ8UeKViTl/VYzDbenKnDhAwVN4CaFdi9Dnn0cvUO2ixnPJwM59BZwB4es"
-      }
-    }
-  ],
   "major": {
     "automerge": false
   },
