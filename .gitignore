@@ -3,4 +3,16 @@ node_modules
 /.cache
 /build
 /public/build
-.env
+/server-build
+.env*
+
+/example_data
+/TODO.md
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
